@@ -1,0 +1,295 @@
+%% Inicio del archivo `template-es.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}   % opciones posibles incluyen tamaño de fuente ('10pt', '11pt' and '12pt'), tamaño de papel ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
+
+% temas de moderncv
+\moderncvstyle{banking}                        % las opciones de estilo son 'casual' (por omision),'classic', 'oldstyle' y 'banking'
+\moderncvcolor{blue}                          % opciones de color 'blue' (por omision), 'orange', 'green', 'red', 'purple', 'grey' y 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % para seleccionar la fuente por omision, use '\sfdefault' para la fuente sans serif, '\rmdefault' para la fuente roman, o cualquier nombre de fuente
+%\nopagenumbers{}                             % elimine el comentario para suprimir la numeracion automatica de las paginas para CVs mayores a una pagina
+
+% codificacion de caracteres
+%\usepackage[utf8]{inputenc}                  % reemplace con su codificacion
+%\usepackage{CJKutf8}                         % si necesita usa CJK para redactar su CV en chino, japones o coreano
+
+% ajustes para los margenes de pagina
+\usepackage[scale=0.75, top=2cm, bottom=1cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % si desea cambiar el ando de la columna para las fechas
+
+% datos personales
+\name{Pablo}{Lázaro}
+\title{Curriculum Vitae}                      % dato opcional, elimine la linea si no desea el dato
+\phone[mobile]{~695~15~73~17}                   % dato opcional, elimine la linea si no desea el dato
+\email{pablolp90@gmail.com}                                % dato opcional, elimine la linea si no desea el dato
+\homepage{pablolazaro.github.io}                         % dato opcional, elimine la linea si no desea el dato
+\social[linkedin]{pablolazaropalencia}                        % optional, remove / comment the line if not wanted
+\social[github]{pablolazaro}                   % dato opcional, elimine la linea si no desea el dato
+
+% para mostrar etiquetas numericas en la bibliografia (por omision no se muestran etiquetas), solo es util si desea incluir citas en en CV
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliografia con varias fuentes
+%\usepackage{multibib}
+%\newcites{book,misc}{{Libros},{Otros}}
+%----------------------------------------------------------------------------------
+%            contenido
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
+\maketitle
+\vspace{-1.5\baselineskip}
+
+\section{Extracto}
+\textsc{\\ }
+
+
+Principalmente me dedico al desarrollo frontal (Front End) de aplicaciones web utilizando frameworks como Angular (que actualmente es mi punto fuerte) y librerías similares (React, Vue, etc.). Más allá del desarrollo puro, mis funciones giran en torno a labores de arquitectura y la construcción de herramientas horizontales que faciliten el trabajo a los desarrolladores y mejoren su productividad.
+\newline{}\newline{}
+Suelo analizar las aplicaciones a desarrollar para definir como se deben distribuir los módulos que las componen, qué componentes existirán en éstos y cual será el flujo de comunicación entre ellos, utilizando, si fuese necesario, algún contenedor de estados como Redux.
+\newline{}\newline{}
+Siempre interesado en seguir aprendiendo y creciendo como profesional.
+
+\textsc{\\ }
+
+\section{Experiencia}
+
+\subsection{Desarrollador Front End}
+
+\cventry{2016--Presente}{Arquitectura Front End Bankinter}{\textsc{GFT}}{Madrid}{}{\textsc{\\ }Definición y desarrollo de de la nueva arquitectura Front End
+\newline{}\newline{}
+Tecnologías utilizadas:
+\begin{itemize}
+\item HTML5, SASS, Angular, TypeScript, Webpack, Node.js, RAML
+\end{itemize}
+\textsc{\\ }
+Competencias:
+\begin{itemize}
+\item Creación del entorno de desarrollo Front End
+\item Definición y desarrollo de la arquitectura
+\item Desarrollo de servicios y componentes horizontales
+\item Soporte a los equipos de desarrollo
+\end{itemize}}
+
+\textsc{\\ }
+
+\cventry{2016--2016}{Oficina Internet Particulares Bankia}{\textsc{GFT}}{Madrid}{}{\textsc{\\ }Definición y desarrollo de la arquitectura de la aplicación
+\newline{}\newline{}
+Tecnologías utilizadas:
+\begin{itemize}
+\item HTML5, SASS, AngularJS, Gulp, Node.js
+\end{itemize}
+\textsc{\\ }
+Competencias:
+\begin{itemize}
+\item Creación del entorno de desarrollo Front End
+\item Definición y desarrollo de la arquitectura
+\item Desarrollo de servicios y componentes horizontales
+\item Soporte al equipo de desarrollo
+\end{itemize}}
+
+\textsc{\\}
+\clearpage
+
+\cventry{2015--2015}{Solicitud hipotecas Intesa Sanpaolo}{\textsc{GFT}}{Turin}{}{\textsc{\\ }Desarrollo de servicios y componentes horizontales. Soporte al equipo de desarrollo
+\newline{}\newline{}
+Tecnologías utilizadas:
+\begin{itemize}
+\item HTML5, SASS, AngularJS, Grunt, Node.js
+\end{itemize}
+\textsc{\\ }
+Competencias:
+\begin{itemize}
+\item Desarrollo de servicios y componentes horizontales
+\item Soporte al equipo de desarrollo
+\end{itemize}}
+
+\textsc{\\ }
+
+\cventry{2015--2015}{Nueva Banca Online ABANCA}{\textsc{GFT}}{Madrid}{}{\textsc{\\ }Propuesta de arquitectura, aplicación web y definición de API para la nueva banca online.
+\newline{}\newline{}
+Tecnologías utilizadas:
+\begin{itemize}
+\item HTML5, Jade, SASS, AngularJS, Gulp, Node.js, RAML
+\end{itemize}
+\textsc{\\ }
+Competencias:
+\begin{itemize}
+\item Desarrollo de arquitectura base y tareas de construcción
+\item Modularización y servicios horizontales de la aplicación
+\item Definición de propuesta de API a consumir por la aplicación
+\end{itemize}}
+
+\textsc{\\}
+
+\cventry{2014--2015}{Oficina Internet Empresas Bankia}{\textsc{GFT}}{Madrid}{}{\textsc{\\ }Desarrollo e integración de servicios de la nueva Oficina Internet Empresas de Bankia.
+\newline{}\newline{}
+Tecnologías utilizadas:
+\begin{itemize}
+\item HTML5, Jade, SASS, AngularJS, Grunt, Node.js
+\item J2EE, Spring, Spring MVC, Spring WebFlow\emph{}
+\end{itemize}
+\textsc{\\ }
+Competencias:
+\begin{itemize}
+\item Desarrollo de herramientas para facilitar las tareas de integración usando Node.js
+\item Desarrollo operativas y servicios de arquitectura de Front End usando AngularJS
+\item Integración, validación y adaptación de servicios desarrollados por las distintas factorías
+\item Resolución de incidencias
+\end{itemize}}
+
+\textsc{\\}
+
+\cventry{2014--2014}{Renovación Canal Cliente Movistar}{\textsc{Eitjobs S.L.}}{Madrid}{}{\textsc{\\ }Renovación del actual Canal Cliente de Movistar.
+\newline{}\newline{}
+Tecnologías utilizadas:
+\begin{itemize}
+\item HTML5, Twitter Bootstrap, jQuery, AngularJS
+\item J2EE, Spring, Spring MVC, Spring Data, Oracle Coherence
+\item Oracle11g, WebLogic12
+\end{itemize}
+\textsc{\\ }
+Competencias:
+\begin{itemize}
+\item Desarrollo de funcionalidades y pantallas en frontend utilizando AngularJS y jQuery
+\item Desarrollo de funcionalidades en backend para servir información al frontend
+\item Resolución de incidencias
+\end{itemize}}
+
+\textsc{\\}
+\clearpage
+
+\cventry{2013--2013}{Jobynet}{\textsc{Eitjobs S.L.}}{Madrid}{}{\textsc{\\ } Desarrollo de la plataforma Jobynet, una herramienta enfocada a la colaboración de empresas a la hora de seleccionar candidatos y promover proyectos.
+\newline{}\newline{}
+Tecnologías utilizadas:
+\begin{itemize}
+\item J2EE, Spring, ZK, Hibernate, Apache CXF, SolrJ
+\item Oracle10g, Solr, Tomcat
+\end{itemize}
+\textsc{\\ }
+Competencias:
+\begin{itemize}
+\item Desarrollo de un cliente para Solr utilizando SorlJ acorde a las necesidades del proyecto
+\item Diseño inicial de los schemas de Solr y su replicación
+\item Pequeños desarrollos de back-end
+\end{itemize}}
+
+\textsc{\\}
+
+\cventry{2011--2013}{Orfila}{\textsc{Eitjobs S.L.}}{Madrid}{}{\textsc{\\ } Desarrollo del nuevo sistema de información para los institutos de medicina legal dentro del programa de Innovación Tecnológica del Ministerio de Justicia.
+\newline{}\newline{}
+Tecnologías utilizadas:
+\begin{itemize}
+\item J2EE, Maven, Spring, Spring Web Flow, Hibernate, Apache CXF, OpenCMIS, JSP, XSLT, Tiles, jQuery
+\item Oracle10g, Alfresco, Solr, WebSphere 7, JasperReport
+\end{itemize}
+\textsc{\\ }
+Competencias:
+\begin{itemize}
+\item Desarrollo de módulos y componentes de back-end
+\item Desarrollo de front-end
+\item Gestión documental
+\end{itemize}
+}
+
+\textsc{\\ }
+
+\cventry{2011--2011}{Socyal}{\textsc{VirtalDesk}}{Madrid}{}{\textsc{\\ } Desarrollo y resolución de incidencia de la plataforma Socyal, utilizada para gestionar los servicios sociales comunitarios de las administraciones publicas.
+\newline{}\newline{}
+Tecnologías utilizadas:
+\begin{itemize}
+\item J2EE, Spring, ZK, Hibernate
+\item Oracle10g, Alfresco, Tomcat
+\end{itemize}
+\textsc{\\ }
+Competencias:
+\begin{itemize}
+\item Preparación de consultas SQL para realizar cubos OLAP
+\item Correcciones en front-end
+\item Resolución de incidencias
+\end{itemize}}
+
+\textsc{\\}
+
+\section{Resumen conocimientos técnicos}
+\begin{cvcolumns}
+  \cvcolumn{Front End}{
+  \begin{itemize}
+  \item Angular
+  \item Angular.js
+  \item Grunt
+  \item Gulp
+  \item Ngrx
+  \item PWA
+  \item Polymer
+  \item React
+  \item Redux
+  \item TypeScript 
+  \item Vue.js
+  \item Webpack
+  \end{itemize}}
+  \cvcolumn{Back End}{
+  \begin{itemize}
+  \item Express.js
+  \item Java
+  \item Node.js
+  \item Python
+  \item Spring
+  \item Spring Boot
+  \item Spring MVC
+  \item Spring WebFlow
+  \end{itemize}}
+  \cvcolumn{Otros}{
+  \begin{itemize}
+  \item Agile
+  \item Blockchain
+  \item Hyperledger
+  \item RAML 
+  \item SWAGGER
+  \end{itemize}}
+  \end{cvcolumns}
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+
+
+\section{Educación}
+\cventry{2009--2011}{Desarrollo de Aplicaciones Informáticas}{I.E.S Clara del Rey}{Madrid}{\textit{Grado Superior de FP}}{}  % arguments 3 to 6 can be left empty
+
+
+\textsc{\\ }
+
+\section{Idiomas}
+\cvlistitem{Español - (Competencia bilingüe o nativa)}
+\cvlistitem{Inglés - (Competencia básica)}
+
+\clearpage
+
+
+\end{document}
+
+
+
+%% fin del archivo `template-es.tex'.
